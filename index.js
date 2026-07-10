@@ -1,6 +1,7 @@
 const fetchBlogs = require("./src/fetchBlogs");
-const fetchLandingPages = require("./src/fetchLandingPages");
+const fetchBlogGroups = require("./src/fetchBlogGroups");
 const fetchBlogTags = require("./src/fetchBlogTags");
+const fetchLandingPages = require("./src/fetchLandingPages");
 const fetchLandingPageDetails = require("./src/fetchLandingPageDetails");
 
 const {
@@ -15,15 +16,15 @@ async function sync() {
     try {
 
         console.log("Fetching Blogs...");
-
         const blogs = await fetchBlogs();
 
-        console.log("Fetching Blog Tags...");
+        console.log("Fetching Blog Groups...");
+        const blogGroups = await fetchBlogGroups();
 
+        console.log("Fetching Blog Tags...");
         const blogTags = await fetchBlogTags();
 
         console.log("Fetching Landing Pages...");
-
         const pages = await fetchLandingPages();
 
         console.log("Fetching Landing Page Details...");
@@ -40,15 +41,21 @@ async function sync() {
 
         const resources = [
 
-            ...transformBlogs(blogs, blogTags),
+            ...transformBlogs(
+                blogs,
+                blogTags,
+                blogGroups
+            ),
 
-            ...transformLandingPages(detailedPages)
+            ...transformLandingPages(
+                detailedPages
+            )
 
         ];
 
         saveJson(resources);
 
-        console.log(resources.length + " resources synced.");
+        console.log("resources.json created");
 
     }
 

@@ -1,34 +1,36 @@
-function transformBlogs(blogs, blogTags) {
+function transformBlogs(blogs, blogTags, blogGroups) {
 
-    return blogs.map(blog => ({
+    return blogs.map(blog => {
 
-        content_id: blog.id,
+        const blogGroup = blogGroups.find(group =>
+            String(group.id) === String(blog.contentGroupId)
+        );
 
-        title: blog.name,
+        const tags = (blog.tagIds || []).map(id => {
 
-        slug: blog.slug,
+            const tag = blogTags.find(tag => Number(tag.id) === Number(id));
 
-        url: blog.url,
+            return tag ? tag.name : "";
 
-        type: "blog",
+        }).filter(Boolean);
 
-        image: blog.featuredImage || "",
+        return {
 
-        description: blog.metaDescription || "",
+            content_id: blog.id,
+            blog_name: blogGroup ? blogGroup.name : "",
+            title: blog.name,
+            slug: blog.slug,
+            url: blog.url,
+            type: "blog",
+            image: blog.featuredImage || "",
+            description: blog.metaDescription || "",
+            publish_date: blog.publishDate,
+            updated_date: blog.updated,
+            tags
 
-        publish_date: blog.publishDate,
+        };
 
-        updated_date: blog.updated,
-
-        tags: (blog.tagIds || []).map(tagId => {
-
-            const tag = blogTags.find(item => item.id == tagId);
-
-            return tag ? tag.name : tagId;
-
-        })
-
-    }));
+    });
 
 }
 
@@ -78,9 +80,6 @@ function transformLandingPages(pages) {
 }
 
 module.exports = {
-
     transformBlogs,
-
     transformLandingPages
-
 };

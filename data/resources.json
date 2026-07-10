@@ -1,6 +1,7 @@
 [
   {
     "content_id": "179318463754",
+    "blog_name": "Test blog",
     "title": "Palmspire Test Blog",
     "slug": "blog/blog-post-1",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/blog/blog-post-1",
@@ -15,6 +16,7 @@
   },
   {
     "content_id": "215425322319",
+    "blog_name": "Welcome to Our Blog",
     "title": "Palmspire",
     "slug": "welcome-to-our-blog/welcome-to-our-blog",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/welcome-to-our-blog/welcome-to-our-blog",
@@ -117,6 +119,6 @@
       "testing",
       "tag"
     ],
-    "show_in_resource_center": false
+    "show_in_resource_center": true
   }
 ]

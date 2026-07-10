@@ -1,10 +1,10 @@
 const axios = require("axios");
 const { token } = require("./config");
 
-async function fetchBlogs() {
+async function fetchBlogGroups() {
 
     const response = await axios.get(
-        "https://api.hubapi.com/cms/v3/blogs/posts",
+        "https://api.hubapi.com/content/api/v2/blogs",
         {
             headers: {
                 Authorization: `Bearer ${token}`
@@ -12,8 +12,8 @@ async function fetchBlogs() {
         }
     );
 
-    return response.data.results;
+    return response.data.objects;
 
 }
 
-module.exports = fetchBlogs;
+module.exports = fetchBlogGroups;
