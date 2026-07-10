@@ -145,6 +145,6 @@
     "tags": [
       "LP-3"
     ],
-    "show_in_resource_center": true
+    "show_in_resource_center": false
   }
 ]
