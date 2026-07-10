@@ -75,27 +75,28 @@
   },
   {
     "content_id": "216641097585",
-    "title": "blog landing page",
+    "title": "Ebook landing page",
     "slug": "blog-landing-page-test",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/blog-landing-page-test",
     "type": "landing-page",
-    "image": "",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/Rectangle%20197%20%283%29.png",
     "description": "",
     "publish_date": "2026-07-08T13:20:30Z",
     "tags": [
       "card tag",
       "cards",
-      "Tag"
+      "Tag",
+      "ebook"
     ],
     "show_in_resource_center": true
   },
   {
     "content_id": "216727471128",
-    "title": "Hululu Hululu",
+    "title": "LP test 1",
     "slug": "hululu-hululu",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/hululu-hululu",
     "type": "landing-page",
-    "image": "",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/section_image_1-1.png",
     "description": "",
     "publish_date": "2026-07-08T12:38:06Z",
     "tags": [
@@ -109,7 +110,7 @@
     "slug": "testing-landing-page",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/testing-landing-page",
     "type": "landing-page",
-    "image": "",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/image.png",
     "description": "",
     "publish_date": "2026-07-10T11:07:14Z",
     "tags": [
