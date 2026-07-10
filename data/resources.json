@@ -102,5 +102,20 @@
       "hululululu"
     ],
     "show_in_resource_center": true
+  },
+  {
+    "content_id": "216855031651",
+    "title": "Testing Landing page",
+    "slug": "testing-landing-page",
+    "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/testing-landing-page",
+    "type": "landing-page",
+    "image": "",
+    "description": "",
+    "publish_date": "2026-07-10T11:07:14Z",
+    "tags": [
+      "testing",
+      "tag"
+    ],
+    "show_in_resource_center": true
   }
 ]
