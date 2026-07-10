@@ -132,19 +132,5 @@
       "LP Tag"
     ],
     "show_in_resource_center": true
-  },
-  {
-    "content_id": "216910022029",
-    "title": "LP test 3",
-    "slug": "lp-test-3",
-    "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/lp-test-3",
-    "type": "landing-page",
-    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/Rectangle%20197%20%284%29-1.png",
-    "description": "LP test 3",
-    "publish_date": "2026-07-10T18:52:32Z",
-    "tags": [
-      "LP-3"
-    ],
-    "show_in_resource_center": false
   }
 ]
