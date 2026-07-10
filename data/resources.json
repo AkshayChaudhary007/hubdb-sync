@@ -33,8 +33,8 @@
     "slug": "test-1",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/test-1",
     "type": "landing-page",
-    "image": "",
-    "description": "",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/Rectangle%20197%20%282%29.png",
+    "description": "Download our free insurance guide to learn how businesses reduce fraud and improve payment efficiency.",
     "publish_date": "2026-07-08T13:54:09Z",
     "tags": [
       "Tag"
@@ -47,8 +47,8 @@
     "slug": "dummy-test-page",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/dummy-test-page",
     "type": "landing-page",
-    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/download.png",
-    "description": "Dummy Test Page",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/Rectangle%20197%20%284%29.png",
+    "description": "Download our free insurance guide to learn how businesses reduce fraud and improve payment efficiency.",
     "publish_date": "2026-06-18T10:55:03Z",
     "tags": [
       "ebook",
@@ -63,7 +63,7 @@
     "slug": "test-m-page",
     "url": "http://hubspot-demo-account-palmspire-21137459.hubspotpagebuilder.com/test-m-page",
     "type": "landing-page",
-    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/download.png",
+    "image": "https://21137459.fs1.hubspotusercontent-na1.net/hubfs/21137459/Rectangle%20197%20%286%29.png",
     "description": "Dummy Test Page",
     "publish_date": "2026-07-08T13:13:53Z",
     "tags": [
@@ -100,7 +100,7 @@
     "description": "",
     "publish_date": "2026-07-08T12:38:06Z",
     "tags": [
-      "hululululu"
+      "tag2"
     ],
     "show_in_resource_center": true
   },
